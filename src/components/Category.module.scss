@@ -1,0 +1,27 @@
+@mixin category-color($category, $color) {
+  &.#{$category} {
+    background-color: $color;
+  }
+}
+
+.container {
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  padding: 4px;
+
+  @include category-color("Electronics", #1E90FF);
+  @include category-color("Clothing", #FF69B4);
+  @include category-color("HomeAppliances", #FFD700);
+  @include category-color("Books", #8B4513);
+  @include category-color("Sports", #228B22);
+  @include category-color("Toys", #FF4500);
+  @include category-color("Groceries", #6B8E23);
+  @include category-color("Automotive", #708090);
+  @include category-color("HealthBeauty", #FFB6C1);
+  @include category-color("Furniture", #D2691E);
+}

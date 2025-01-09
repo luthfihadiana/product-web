@@ -1,0 +1,19 @@
+.container {
+  max-height: 100vh;
+  overflow: scroll;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 8px;
+  background-color: white;
+  padding: 16px;
+
+  @media (min-width: 425px) {
+    // For tablet-sized screens
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 768px) {
+    // For larger screens
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
