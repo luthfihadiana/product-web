@@ -1,5 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import styles from "./Page.module.scss";
+import styles from "@/styles/Page.module.scss";
 import { ReactNode } from "react";
 import classNames from "classnames";
 

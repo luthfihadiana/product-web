@@ -1,7 +1,7 @@
 'use client'
 import useSWR from "swr";
 import Product from "./Product";
-import styles from "./Products.module.scss";
+import styles from "@/styles/Products.module.scss";
 import { ProductItem, SortOptionValue } from "@/types";
 import { useEffect, useMemo, useState } from "react";
 import Loading from "./Loading";

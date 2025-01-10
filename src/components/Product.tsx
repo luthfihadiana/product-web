@@ -1,6 +1,6 @@
 import { ProductCategory, ProductItem, SortOptionValue } from "@/types";
 import Category from "./Category";
-import styles from "./Product.module.scss";
+import styles from "@/styles/Product.module.scss";
 import { useRouter } from "next/router";
 import classNames from "classnames";
 
