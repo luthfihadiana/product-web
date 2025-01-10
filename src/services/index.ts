@@ -20,6 +20,9 @@ export const getProducts = async ({q,sort}:GetProductsReq):Promise<GetProductsRe
   }
   if(!!sort.length){
     url.searchParams.append('_sort', sort);
+    if(sort === "likes" || sort === "sold_number"){
+      url.searchParams.append('_order', "desc");
+    }
   }
   const response = await fetch(url);
   const data = await response.json();

@@ -1,16 +1,20 @@
-import { ProductCategory, ProductItem } from "@/types";
+import { ProductCategory, ProductItem, SortOptionValue } from "@/types";
 import Category from "./Category";
 import styles from "./Product.module.scss";
 import { useRouter } from "next/router";
+import classNames from "classnames";
 
 type Props = {
   item: ProductItem,
+  highlightKey?: SortOptionValue
 }
 
 const Product = ({
-  item
+  item,
+  highlightKey
 }: Props) => {
   const router = useRouter();
+  console.log(highlightKey);
   return (
     <div className={styles.product} onClick={() => router.push(`/products/${item.id}`)}>
       <div className={styles.productImage} >
@@ -20,17 +24,23 @@ const Product = ({
             {item?.name}
           </p>
           <div className={styles.productDescInfo}>
-            <p className={styles.productDescInfoText}>
+            <p className={classNames(styles.productDescInfoText, {
+              [styles.highlight]: highlightKey === "price"
+            })}>
               ${item?.price}
             </p>
             <div className={styles.productDescEngagement}>
-              <p className={styles.productDescInfoText}>
+              <p className={classNames(styles.productDescInfoText, {
+                [styles.highlight]: highlightKey === "likes"
+              })}>
                 <span className="material-symbols-outlined">
                   thumb_up
                 </span>
                 {item?.likes ?? 0}
               </p>
-              <p className={styles.productDescInfoText}>
+              <p className={classNames(styles.productDescInfoText, {
+                [styles.highlight]: highlightKey === "sold_number"
+              })}>
                 <span className="material-symbols-outlined">
                   shopping_cart
                 </span>

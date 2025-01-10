@@ -21,3 +21,5 @@ export type ProductItem = {
   sold_number: number,
   likes: number,
 }
+
+export type SortOptionValue = "price" | "likes" | "sold_number"

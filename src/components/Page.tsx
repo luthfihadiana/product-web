@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from "./Page.module.scss";
 import { ReactNode } from "react";
+import classNames from "classnames";
 
 type Props = {
   children?: ReactNode,
@@ -19,7 +20,7 @@ const geistMono = Geist_Mono({
 export default function Page({ children }: Props) {
   return (
     <div
-      className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
+      className={classNames(styles.page, geistSans.variable, geistMono.variable)}
     >
       <main className={styles.main}>
         {children}

@@ -55,6 +55,17 @@
       span {
         font-size: 12px;
       }
+
+      &.highlight {
+        font-size: 14px;
+        font-weight: bold;
+        color: black;
+        background-color: lightyellow;
+
+        span {
+          font-size: 14px;
+        }
+      }
     }
 
     &Info {

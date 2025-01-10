@@ -2,14 +2,12 @@
 import useSWR from "swr";
 import Product from "./Product";
 import styles from "./Products.module.scss";
-import { ProductItem } from "@/types";
+import { ProductItem, SortOptionValue } from "@/types";
 import { useEffect, useMemo, useState } from "react";
 
 type Props = {
   products: ProductItem[]
 }
-
-type SortOptionValue = "price" | "likes" | "sold_number"
 
 const fetcher = (url: string) => fetch(url).then(res => {
   if (!res.ok) {
@@ -105,6 +103,7 @@ const Products = ({
               <Product
                 key={`product-${el.id}`}
                 item={el}
+                highlightKey={sortKey}
               />
             ))
           }
