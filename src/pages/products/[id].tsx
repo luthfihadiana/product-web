@@ -54,7 +54,6 @@ export default function Home({ item }: Props) {
           <h1 className={styles.title}>
             {item.name}
           </h1>
-
         </div>
         <img className={styles.productImage} src={item.image_url} />
         <div className={styles.productCategories}>

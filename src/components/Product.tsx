@@ -14,7 +14,7 @@ const Product = ({
   return (
     <div className={styles.product} onClick={() => router.push(`/products/${item.id}`)}>
       <div className={styles.productImage} >
-        <img src="https://dummyimage.com/200x200/000/fff&text=Product+1" />
+        <img src={item.image_url} alt={`${item.name}-image`} />
         <div className={styles.productDesc}>
           <p className={styles.productDescTitle}>
             {item?.name}

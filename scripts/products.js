@@ -7,8 +7,12 @@ function getRandomElement(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
-function generateRandomNumber(min, max) {
+function generateRandomPrice(min, max) {
   return (Math.random() * (max - min) + min).toFixed(2);
+}
+
+function generateRandomNumber(min, max) {
+  return Math.round((Math.random() * (max - min) + min).toFixed(2));
 }
 
 function generateDummyItems(count) {
@@ -20,7 +24,7 @@ function generateDummyItems(count) {
       name: `Product ${i}`,
       categories: [getRandomElement(categories), getRandomElement(categories)],
       image_url: `https://dummyimage.com/200x200/000/fff&text=Product+${i}`,
-      price: parseFloat(generateRandomNumber(10, 500)),
+      price: parseFloat(generateRandomPrice(10, 500)),
       sold_number: parseFloat(generateRandomNumber(10, 100)),
       likes: parseFloat(generateRandomNumber(0,20)),
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."

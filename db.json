@@ -4,52 +4,51 @@
       "id": 1,
       "name": "Product 1",
       "categories": [
-        "Books",
-        "Toys"
+        "Clothing",
+        "Books"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+1",
-      "price": 480.96,
-      "sold_number": 18.44,
-      "likes": 9.87,
+      "price": 394.87,
+      "sold_number": 44,
+      "likes": 7,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
       "id": 2,
       "name": "Product 2",
       "categories": [
-        "Books",
-        "Sports"
+        "Groceries",
+        "Toys"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+2",
-      "price": 250.51,
-      "sold_number": 58.82,
-      "likes": 6.02,
+      "price": 101.28,
+      "sold_number": 84,
+      "likes": 14,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
       "id": 3,
       "name": "Product 3",
       "categories": [
-        "Books",
-        "Home Appliances"
+        "Health & Beauty"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+3",
-      "price": 471.89,
-      "sold_number": 75.88,
-      "likes": 6.51,
+      "price": 489.7,
+      "sold_number": 73,
+      "likes": 1,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
       "id": 4,
       "name": "Product 4",
       "categories": [
-        "Toys",
-        "Home Appliances"
+        "Clothing",
+        "Groceries"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+4",
-      "price": 261.64,
-      "sold_number": 83.57,
-      "likes": 19.05,
+      "price": 489.33,
+      "sold_number": 62,
+      "likes": 1,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
@@ -57,141 +56,140 @@
       "name": "Product 5",
       "categories": [
         "Electronics",
-        "Sports"
+        "Toys"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+5",
-      "price": 97.05,
-      "sold_number": 29.59,
-      "likes": 11.78,
+      "price": 276.14,
+      "sold_number": 85,
+      "likes": 11,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
       "id": 6,
       "name": "Product 6",
       "categories": [
-        "Home Appliances",
-        "Health & Beauty"
+        "Health & Beauty",
+        "Clothing"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+6",
-      "price": 350.83,
-      "sold_number": 53.44,
-      "likes": 2.62,
+      "price": 93.19,
+      "sold_number": 95,
+      "likes": 4,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
       "id": 7,
       "name": "Product 7",
       "categories": [
-        "Home Appliances",
+        "Toys",
         "Electronics"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+7",
-      "price": 164.6,
-      "sold_number": 41.38,
-      "likes": 1.53,
+      "price": 170.82,
+      "sold_number": 13,
+      "likes": 14,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
       "id": 8,
       "name": "Product 8",
       "categories": [
-        "Electronics",
-        "Toys"
+        "Automotive"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+8",
-      "price": 470.73,
-      "sold_number": 65.73,
-      "likes": 14.67,
+      "price": 43.64,
+      "sold_number": 96,
+      "likes": 14,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
       "id": 9,
       "name": "Product 9",
       "categories": [
-        "Electronics",
-        "Books"
+        "Home Appliances",
+        "Automotive"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+9",
-      "price": 332.33,
-      "sold_number": 11.41,
-      "likes": 16.39,
+      "price": 353.02,
+      "sold_number": 83,
+      "likes": 18,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
       "id": 10,
       "name": "Product 10",
       "categories": [
-        "Automotive",
-        "Clothing"
+        "Groceries",
+        "Toys"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+10",
-      "price": 59.92,
-      "sold_number": 48.71,
-      "likes": 5.26,
+      "price": 355.21,
+      "sold_number": 89,
+      "likes": 6,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
       "id": 11,
       "name": "Product 11",
       "categories": [
-        "Electronics",
-        "Groceries"
+        "Home Appliances"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+11",
-      "price": 466.93,
-      "sold_number": 38.45,
-      "likes": 0.74,
+      "price": 476.51,
+      "sold_number": 70,
+      "likes": 9,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
       "id": 12,
       "name": "Product 12",
       "categories": [
-        "Groceries",
-        "Health & Beauty"
+        "Home Appliances",
+        "Electronics"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+12",
-      "price": 253.12,
-      "sold_number": 56.84,
-      "likes": 11.31,
+      "price": 269.69,
+      "sold_number": 36,
+      "likes": 7,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
       "id": 13,
       "name": "Product 13",
       "categories": [
-        "Automotive",
-        "Books"
+        "Toys",
+        "Sports"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+13",
-      "price": 474.86,
-      "sold_number": 78.12,
-      "likes": 16.85,
+      "price": 365.94,
+      "sold_number": 58,
+      "likes": 18,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
       "id": 14,
       "name": "Product 14",
       "categories": [
-        "Clothing",
-        "Automotive"
+        "Automotive",
+        "Books"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+14",
-      "price": 446.04,
-      "sold_number": 94.82,
-      "likes": 2.57,
+      "price": 149.39,
+      "sold_number": 84,
+      "likes": 7,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
       "id": 15,
       "name": "Product 15",
       "categories": [
-        "Toys"
+        "Home Appliances",
+        "Furniture"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+15",
-      "price": 466.74,
-      "sold_number": 12.24,
-      "likes": 15.41,
+      "price": 417.94,
+      "sold_number": 65,
+      "likes": 20,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }
   ]
