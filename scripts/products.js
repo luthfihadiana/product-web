@@ -23,7 +23,7 @@ function generateDummyItems(count) {
       price: parseFloat(generateRandomNumber(10, 500)),
       sold_number: parseFloat(generateRandomNumber(10, 100)),
       likes: parseFloat(generateRandomNumber(0,20)),
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nulla risus, tristique a tempor sed, tempus at dolor."
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     };
 
     // Ensure unique categories in the array
