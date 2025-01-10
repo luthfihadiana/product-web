@@ -5,103 +5,102 @@
       "name": "Product 1",
       "categories": [
         "Toys",
-        "Groceries"
+        "Home Appliances"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+1",
-      "price": 30.09,
-      "sold_number": 14.48,
-      "likes": 4.07,
+      "price": 165.5,
+      "sold_number": 32.36,
+      "likes": 1.6,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nulla risus, tristique a tempor sed, tempus at dolor."
     },
     {
       "id": 2,
       "name": "Product 2",
       "categories": [
-        "Automotive",
-        "Health & Beauty"
+        "Sports",
+        "Automotive"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+2",
-      "price": 360.66,
-      "sold_number": 18.87,
-      "likes": 9.13,
+      "price": 302.94,
+      "sold_number": 11.69,
+      "likes": 0.99,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nulla risus, tristique a tempor sed, tempus at dolor."
     },
     {
       "id": 3,
       "name": "Product 3",
       "categories": [
-        "Automotive",
-        "Electronics"
+        "Toys",
+        "Health & Beauty"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+3",
-      "price": 71.7,
-      "sold_number": 90.04,
-      "likes": 11.52,
+      "price": 64.05,
+      "sold_number": 15.58,
+      "likes": 1.48,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nulla risus, tristique a tempor sed, tempus at dolor."
     },
     {
       "id": 4,
       "name": "Product 4",
       "categories": [
-        "Groceries",
-        "Electronics"
+        "Clothing"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+4",
-      "price": 202.03,
-      "sold_number": 55.29,
-      "likes": 14.91,
+      "price": 347.29,
+      "sold_number": 95.89,
+      "likes": 15.26,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nulla risus, tristique a tempor sed, tempus at dolor."
     },
     {
       "id": 5,
       "name": "Product 5",
       "categories": [
-        "Sports",
-        "Toys"
+        "Books",
+        "Electronics"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+5",
-      "price": 360.04,
-      "sold_number": 80.5,
-      "likes": 7.53,
+      "price": 399.72,
+      "sold_number": 99.47,
+      "likes": 1.58,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nulla risus, tristique a tempor sed, tempus at dolor."
     },
     {
       "id": 6,
       "name": "Product 6",
       "categories": [
-        "Groceries",
-        "Toys"
+        "Books",
+        "Health & Beauty"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+6",
-      "price": 117.75,
-      "sold_number": 43.16,
-      "likes": 16.32,
+      "price": 444.79,
+      "sold_number": 51.9,
+      "likes": 6.77,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nulla risus, tristique a tempor sed, tempus at dolor."
     },
     {
       "id": 7,
       "name": "Product 7",
       "categories": [
-        "Health & Beauty",
-        "Electronics"
+        "Toys",
+        "Sports"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+7",
-      "price": 109.15,
-      "sold_number": 25.26,
-      "likes": 17.18,
+      "price": 16.18,
+      "sold_number": 49.03,
+      "likes": 6.17,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nulla risus, tristique a tempor sed, tempus at dolor."
     },
     {
       "id": 8,
       "name": "Product 8",
       "categories": [
-        "Toys",
-        "Furniture"
+        "Groceries",
+        "Electronics"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+8",
-      "price": 100.3,
-      "sold_number": 85.6,
-      "likes": 2.12,
+      "price": 343.23,
+      "sold_number": 12.97,
+      "likes": 16.05,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nulla risus, tristique a tempor sed, tempus at dolor."
     },
     {
@@ -109,25 +108,25 @@
       "name": "Product 9",
       "categories": [
         "Automotive",
-        "Electronics"
+        "Sports"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+9",
-      "price": 409.31,
-      "sold_number": 37.23,
-      "likes": 12.6,
+      "price": 397.44,
+      "sold_number": 52.52,
+      "likes": 18.16,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nulla risus, tristique a tempor sed, tempus at dolor."
     },
     {
       "id": 10,
       "name": "Product 10",
       "categories": [
-        "Furniture",
-        "Groceries"
+        "Toys",
+        "Automotive"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+10",
-      "price": 85.56,
-      "sold_number": 53.03,
-      "likes": 4.64,
+      "price": 401.18,
+      "sold_number": 97.8,
+      "likes": 5.34,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nulla risus, tristique a tempor sed, tempus at dolor."
     },
     {
@@ -135,25 +134,25 @@
       "name": "Product 11",
       "categories": [
         "Groceries",
-        "Clothing"
+        "Automotive"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+11",
-      "price": 28.58,
-      "sold_number": 30.19,
-      "likes": 5.09,
+      "price": 92.39,
+      "sold_number": 99.94,
+      "likes": 8.07,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nulla risus, tristique a tempor sed, tempus at dolor."
     },
     {
       "id": 12,
       "name": "Product 12",
       "categories": [
-        "Clothing",
-        "Groceries"
+        "Electronics",
+        "Clothing"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+12",
-      "price": 178.47,
-      "sold_number": 55.75,
-      "likes": 6.31,
+      "price": 185.51,
+      "sold_number": 63.43,
+      "likes": 2.88,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nulla risus, tristique a tempor sed, tempus at dolor."
     },
     {
@@ -161,12 +160,12 @@
       "name": "Product 13",
       "categories": [
         "Sports",
-        "Health & Beauty"
+        "Furniture"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+13",
-      "price": 120.64,
-      "sold_number": 87.31,
-      "likes": 5.53,
+      "price": 99.21,
+      "sold_number": 44.32,
+      "likes": 13.6,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nulla risus, tristique a tempor sed, tempus at dolor."
     },
     {
@@ -174,12 +173,12 @@
       "name": "Product 14",
       "categories": [
         "Furniture",
-        "Sports"
+        "Automotive"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+14",
-      "price": 349.1,
-      "sold_number": 28.71,
-      "likes": 4.92,
+      "price": 262.57,
+      "sold_number": 76.95,
+      "likes": 9.93,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nulla risus, tristique a tempor sed, tempus at dolor."
     },
     {
@@ -187,77 +186,12 @@
       "name": "Product 15",
       "categories": [
         "Electronics",
-        "Furniture"
+        "Groceries"
       ],
       "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+15",
-      "price": 94.28,
-      "sold_number": 57.53,
-      "likes": 0.1,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nulla risus, tristique a tempor sed, tempus at dolor."
-    },
-    {
-      "id": 16,
-      "name": "Product 16",
-      "categories": [
-        "Sports",
-        "Toys"
-      ],
-      "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+16",
-      "price": 253.43,
-      "sold_number": 25.46,
-      "likes": 15.93,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nulla risus, tristique a tempor sed, tempus at dolor."
-    },
-    {
-      "id": 17,
-      "name": "Product 17",
-      "categories": [
-        "Home Appliances",
-        "Toys"
-      ],
-      "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+17",
-      "price": 423.99,
-      "sold_number": 17.78,
-      "likes": 12.7,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nulla risus, tristique a tempor sed, tempus at dolor."
-    },
-    {
-      "id": 18,
-      "name": "Product 18",
-      "categories": [
-        "Home Appliances",
-        "Books"
-      ],
-      "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+18",
-      "price": 293.84,
-      "sold_number": 96.18,
-      "likes": 11.47,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nulla risus, tristique a tempor sed, tempus at dolor."
-    },
-    {
-      "id": 19,
-      "name": "Product 19",
-      "categories": [
-        "Groceries",
-        "Furniture"
-      ],
-      "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+19",
-      "price": 288.6,
-      "sold_number": 16.68,
-      "likes": 18.9,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nulla risus, tristique a tempor sed, tempus at dolor."
-    },
-    {
-      "id": 20,
-      "name": "Product 20",
-      "categories": [
-        "Groceries",
-        "Sports"
-      ],
-      "image_url": "https://dummyimage.com/200x200/000/fff&text=Product+20",
-      "price": 20.41,
-      "sold_number": 46.7,
-      "likes": 4.22,
+      "price": 76.45,
+      "sold_number": 13.45,
+      "likes": 15.1,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nulla risus, tristique a tempor sed, tempus at dolor."
     }
   ]

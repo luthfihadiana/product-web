@@ -37,7 +37,7 @@ function generateDummyItems(count) {
   };
 }
 
-const dummyItems = generateDummyItems(20);
+const dummyItems = generateDummyItems(15);
 
 // Save the dummy data to a JSON file in the parent directory of the 'scripts' folder
 const outputFilePath = path.join(__dirname, '../db.json');
