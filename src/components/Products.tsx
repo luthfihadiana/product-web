@@ -4,6 +4,8 @@ import Product from "./Product";
 import styles from "./Products.module.scss";
 import { ProductItem, SortOptionValue } from "@/types";
 import { useEffect, useMemo, useState } from "react";
+import Loading from "./Loading";
+import EmptyData from "./EmptyData";
 
 type Props = {
   products: ProductItem[]
@@ -91,23 +93,25 @@ const Products = ({
         }
       </div>
       {isLoading && (
-        <div className={styles.containerLoading}>
-          <p>Loading...</p>
-        </div>
+        <Loading />
       )}
       {error && <p>Error: {error.message}</p>}
       {!isLoading && !error && (
-        <div className={styles.container}>
-          {
-            displayedData.map(el => (
-              <Product
-                key={`product-${el.id}`}
-                item={el}
-                highlightKey={sortKey}
-              />
-            ))
-          }
-        </div>
+        !!displayedData?.length ? (
+          <div className={styles.container}>
+            {
+              displayedData.map(el => (
+                <Product
+                  key={`product-${el.id}`}
+                  item={el}
+                  highlightKey={sortKey}
+                />
+              ))
+            }
+          </div>
+        ) : (
+          <EmptyData />
+        )
       )}
     </>
   )

@@ -19,6 +19,24 @@
 
   &Loading {
     padding: 16px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .loading-spinner {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      border: 5px solid rgba(0, 0, 0, 0.1); // Light background
+      border-top-color: #3498db; // Highlighted color
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      width: 80px;
+      height: 80px;
+      border-width: 6px;
+    }
   }
 }
 
