@@ -7,12 +7,14 @@
 .container {
   border-radius: 8px;
   color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   font-size: 12px;
   padding: 4px;
+  max-width: 200px;
+  white-space: nowrap;
+  /* Prevent text from wrapping to the next line */
+  overflow: hidden;
+  /* Hide any overflowing content */
+  text-overflow: ellipsis;
 
   @include category-color("Electronics", #1E90FF);
   @include category-color("Clothing", #FF69B4);

@@ -46,9 +46,25 @@
       text-overflow: ellipsis;
     }
 
-    &Price {
+    &InfoText {
       font-size: 12px;
       color: gray;
+      display: flex;
+      align-items: center;
+
+      span {
+        font-size: 12px;
+      }
+    }
+
+    &Info {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &Engagement {
+      display: flex;
+      gap: 8px;
     }
 
     &Categories {

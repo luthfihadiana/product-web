@@ -10,3 +10,14 @@ export enum ProductCategory {
   HealthBeauty="Health & Beauty",
   Furniture="Furniture"
 }
+
+export type ProductItem = {
+  id: number,
+  name: string,
+  categories: ProductCategory[],
+  image_url: string,
+  price: number,
+  description: string,
+  sold_number: number,
+  likes: number,
+}

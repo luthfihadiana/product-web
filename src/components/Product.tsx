@@ -1,17 +1,49 @@
-import { ProductCategory } from "@/types";
+import { ProductCategory, ProductItem } from "@/types";
 import Category from "./Category";
 import styles from "./Product.module.scss";
-const Product = () => {
+import { useRouter } from "next/router";
+
+type Props = {
+  item: ProductItem,
+}
+
+const Product = ({
+  item
+}: Props) => {
+  const router = useRouter();
   return (
-    <div className={styles.product}>
+    <div className={styles.product} onClick={() => router.push(`/products/${item.id}`)}>
       <div className={styles.productImage} >
         <img src="https://dummyimage.com/200x200/000/fff&text=Product+1" />
         <div className={styles.productDesc}>
-          <p className={styles.productDescTitle}>Product 1 jdajdsiajdiajdsoij</p>
-          <p className={styles.productDescPrice}>$32</p>
+          <p className={styles.productDescTitle}>
+            {item?.name}
+          </p>
+          <div className={styles.productDescInfo}>
+            <p className={styles.productDescInfoText}>
+              ${item?.price}
+            </p>
+            <div className={styles.productDescEngagement}>
+              <p className={styles.productDescInfoText}>
+                <span className="material-symbols-outlined">
+                  thumb_up
+                </span>
+                {item?.likes ?? 0}
+              </p>
+              <p className={styles.productDescInfoText}>
+                <span className="material-symbols-outlined">
+                  shopping_cart
+                </span>
+                {item?.sold_number ?? 0}
+              </p>
+            </div>
+          </div>
           <div className={styles.productDescCategories}>
-            <Category category={ProductCategory.HealthBeauty} />
-            <Category category={ProductCategory.HealthBeauty} />
+            {
+              item?.categories.map(el => (
+                <Category category={el} key={`${item.id}-${el}`} />
+              ))
+            }
           </div>
         </div>
       </div>

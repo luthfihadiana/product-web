@@ -3,6 +3,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.scss";
 import Products from "@/components/Products";
 import { GetServerSideProps } from "next";
+import { getProducts } from "@/services";
+import { ProductItem } from "@/types";
+import Page from "@/components/Page";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,7 +18,7 @@ const geistMono = Geist_Mono({
 });
 
 type Props = {
-  initialItems: any[];
+  initialItems: ProductItem[];
 }
 
 export default function Home({ initialItems }: Props) {
@@ -30,10 +33,10 @@ export default function Home({ initialItems }: Props) {
       <div
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
-        <main className={styles.main}>
+        <Page>
           <h1 className={styles.title}>Our Products</h1>
-          <Products />
-        </main>
+          <Products products={initialItems} />
+        </Page>
       </div>
     </>
   );
@@ -41,12 +44,21 @@ export default function Home({ initialItems }: Props) {
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
   const query = context.query.q || ''; // Get the query string (if any)
-  const response = await fetch(`https://my-json-server.typicode.com/luthfihadiana/product-web/posts?q=${query}`);
-  const initialItems = await response.json();
+  const sort = context.query.s || ''; // Get the query string (if any)
 
-  return {
-    props: {
-      initialItems,
-    },
-  };
+  try {
+    const initialItems = await getProducts({ q: query as string, sort: sort as string });
+
+    return {
+      props: {
+        initialItems,
+      },
+    };
+  } catch {
+    return {
+      props: {
+        initialItems: [],
+      },
+    };
+  }
 };
